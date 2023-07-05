@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>360 Degree Viewer - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    /* CSS styles go here */
+    body {
+      background-image: url("images/bg1.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+      padding-left: 400px;
+      /* background-color: rgba(255, 255, 255, 0.8); */
+      border-radius: 10px;
+      text-align: center;
+    }
+    h1 {
+        color: rgb(180, 234, 55);
+        font-size: 60px;
+    }
+    h2 {
+        color: aquamarine;
+        font-size: 25px;
+        padding-top: 20px;
+
+    } 
+    h3 {
+      color: white;
+      font-size: 15px;
+    }
+    p {
+      color: #555;
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 50px;
+      color: #555;
+    }
+    nav {
+      background-color: #333;
+      padding: 10px;
+      text-align: right;
+    }
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    nav ul li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .team {
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      color: #fff;
+    }
+    .team-member {
+      flex-basis: 50%;
+      text-align: center;
+      padding: 10px;
+      padding-left: 200px;
+      color: #fff;
+    }
+    .team-member img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    .main-button {
+      display: block;
+      margin-top: 40px;
+      margin-left: 260px;
+      text-align: center;
+      width: 300px;
+      height: 40px;
+      line-height: 23px;
+      background-color: grey;
+      color: whitesmoke;
+      text-decoration: none;
+      border-radius: 0;
+      align-items: center;
+      padding-top: 15px;
+      padding-right: 0;
+      font-size: 25px;
+    }
+    .welcome {
+        font-size: 30px;
+        color:aliceblue
+    }
+    .info {
+        font-size: 20px;
+        text-align: center;
+    }
+    .miniproject {
+        font-size: 40px;
+        color: wheat;
+    }
+    .by{
+        color: white;
+        font-size: 15px;
+    }
+    .guide{
+        color:white;
+        font-size: 22px;
+    }
+    .details{
+        color:whitesmoke
+    }
+
+    /* .main-button {
+      display: block;
+      margin-top: 20px;
+      text-align: center;
+    } */
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+      <!-- <li><a href="project.html">Human body</a></li> -->
+    </ul>
+  </nav>
+
+  <!-- Home Page - Description and Features -->
+  <div class="container" id="home">
+    <h1><p class="welcome">Welcome to the </p>360 Degree Viewer</h1>
+    <p class="info">
+        The 360-degree viewer project for primary school students provides new learning experiences . The project can be used as a tool to promote cultural awareness and diversity, by showcasing different organs and healthcare practices from around the world. Furthermore, the 360-degree viewer project for users has the potential to inspire and motivate users to pursue careers in healthcare and medicine. It can serve as an introduction to the human body and the importance of healthcare, sparking an interest in science and medical research.
+
+    </p>
+    <!-- <h2>Key Features</h2>
+    <ul>
+      <li>Interactive 360-degree view of scenes</li>
+      <li>Smooth navigation controls</li>
+      <li>High-quality visuals and graphics</li>
+    </ul> -->
+    <a href="skeleton.html" class="main-button">Explore to the Human Body</a>
+  </div>
+
+  <!-- Team Members Page -->
+  <div class="container" id="team">
+    <h1 class="miniproject">Mini-project</h1>
+    <p class="by">By the students of Information Science and Engineering Department
+        , PDA college of Engineering
+    </p>
+    <p class="guide"> Under the guidence of Prof. Ashok Patil</p>
+    <h2>Team Members</h2>
+    <div class="team">
+      <div class="team-member">
+        <!-- <img src="john-doe.jpg" alt="John Doe"> -->
+        <h3>Spoorti Sutrave (3PD20IS049)</h3>
+        <p>Team Lead</p>
+      </div>
+      <div class="team-member">
+        <!-- <img src="jane-smith.jpg" alt="Jane Smith"> -->
+        <h3>Umaira Khan (3PD20IS057)</h3>
+        <p>Team member</p>
+      </div>
+      <div class="team-member">
+        <!-- <img src="mark-johnson.jpg" alt="Mark Johnson"> -->
+        <h3>Vishal V S (3PD20IS061)
+        </h3>
+        <p>Team member</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Us Page -->
+  <div class="container" id="contact">
+    <h2>Contact Us</h2>
+    <p>
+      For any inquiries or feedback, please feel free to contact us using the details below:
+    </p>
+    <div class="details">
+      <p>Email: 3pd20is049@padengg.com</p>
+      <p>Phone: +91 7338528371</p>
+      <p>Address: PDA college of Engineering, Kalaburagi - 585101</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <!-- <footer>
+    <p>© 2023 360 Degree Viewer. All rights reserved.</p>
+  </footer> -->
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+body {
+  background-image: url('line.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  main {
+    margin: 20px;
+    color: black;
+  }
+  .clickable-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    margin-left: 10px;
+  }
+  
+  .clickable-images img {
+    width: 60px;
+    height: 60px;
+    margin: 0 20px;
+    cursor: pointer;
+  }
+  
+  .clickable-images img:hover {
+    transform: scale(1.2);
+  }
+  
